@@ -12,3 +12,45 @@
 .actual-cover .art-caption{position:static;text-align:center;margin:0;color:#c8c6b8}
 .order-cover-image{display:block;width:min(100%,300px);height:auto;margin:0 auto 28px;border:1px solid #c6a87855;box-shadow:0 16px 32px #0005}
 @media(max-width:850px){.hero-art.actual-cover{height:auto;padding:22px 0 10px}.cover-image-frame{width:min(100%,440px)}.real-book-cover{max-height:none}}
+
+
+/* BLACK & GOLD THEME */
+:root{
+  --forest:#050505;
+  --forest2:#111111;
+  --cream:#090909;
+  --paper:#121212;
+  --gold:#d6b36a;
+  --ink:#f3efe7;
+  --muted:#b4b0a7;
+  --line:#37332b;
+}
+body{background:#090909;color:#f3efe7}
+.site-header,.hero,.order,.author-art{background:#050505;color:#f3efe7}
+.site-header{border-bottom-color:#d6b36a44}
+.brand small,.hero-bottom,.hero-text,.order-inner>p:not(.eyebrow),.order-details span,.order-note{color:#c0bbb1}
+.hero-subtitle,.text-link{color:#e5d7b8}
+.button-light{background:#d6b36a;color:#080808}
+.button-light:hover{background:#e5c77f}
+.section,.reader-note,.chapters,.author{background:#090909;color:#f3efe7}
+.quote-band{background:#141414;color:#f3efe7}
+.quote-band p,.section-label,.body-copy,.heading-note,.chapter-info small,
+.chapter-status,.chapter-disclaimer,.author-copy>p:not(.eyebrow),
+.reader-note-content>p:not(.eyebrow){color:#b8b2a7}
+.section h2,.order h2,.reader-note-content blockquote,.chapter-info strong,
+.chapter-row{color:#f3efe7}
+.section h2 em{color:#d6b36a}
+.chapter-list,.chapter-row,.chapter-preview{border-color:#39342b}
+.chapter-row:hover{background:#141414}
+.chapter-number,.chapter-status b,.underlined-link span,.quote-mark{color:#d6b36a}
+.chapter-preview{color:#d2ccc0}
+.chapter-preview .preview-note{background:#1b1812;color:#e0c88f}
+.underlined-link{border-color:#d6b36a;color:#f3efe7}
+.author-art{border:1px solid #d6b36a44}
+.author-copy .eyebrow,.eyebrow.dark{color:#d6b36a}
+.signature{color:#d6b36a}
+.site-footer{background:#000;color:#d2ccc0;border-top:1px solid #d6b36a44}
+.site-footer>small{color:#aaa398}
+.site-header nav a:hover,.footer-links a:hover{color:#d6b36a}
+.site-header nav .nav-cta{border-color:#d6b36a}
+@media(max-width:850px){.site-header nav{background:#050505}}
